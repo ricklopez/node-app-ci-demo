@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh rlopez0818@159.89.133.252 <<EOF
- cd ~/node-app-ci-demo
+ cd node-app-ci-demo/
  git pull
  npm install — production
  pm2 restart all
