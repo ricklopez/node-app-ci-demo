@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh -tt  StrictHostKeyChecking=no rlopez0818@159.89.133.252 <<EOF
+ssh -tt  -o StrictHostKeyChecking=no rlopez0818@159.89.133.252 <<EOF
  cd node-app-ci-demo/
  git pull
  npm install --production
